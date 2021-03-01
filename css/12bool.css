@@ -21,6 +21,13 @@
     padding-right: 15px; /*padding side for every col-*/
 }
 
+/*clearfix*/
+.container::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
 /*ALL COLUMNS*/
 .col-12 {
     width: 100%;
